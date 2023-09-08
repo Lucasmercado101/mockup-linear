@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <li>
+        <ul id="navbar-logo">
+          <li>
+            <img id="logo" src="./assets/logo.png" alt="logo" />
+          </li>
+          <li>Linear</li>
+        </ul>
+      </li>
+      <li>
+        <ul style="color: #bcbcc5" id="navbar-links">
+          <li>Twitter</li>
+          <li>Changelog</li>
+          <li id="sign-in-btn">Sign in</li>
+        </ul>
+      </li>
+    </nav>
+
+    <section id="hero-section">
+      <h2 id="hero-subtitle">introducing Linear</h2>
+      <h1 id="hero-title">
+        The issue tracking tool<br />
+        you'll enjoy using
+      </h1>
+      <p id="hero-text">
+        Linear lets you manage software development and track bugs. Linear's
+        streamlined <br />
+        design is built for speed and efficiency &mdash; helping high performing
+        teams<br />
+        accomplish great things.
+      </p>
+
+      <div id="hero-cta">
+        <input type="email" placeholder="> enter your email" type="text" />
+        <button>Request access</button>
+      </div>
+
+      <img
+        id="hero-img"
+        src="./assets/demo-image-1.png"
+        alt="app-demo-image-1"
+      />
+    </section>
+
+    <section id="main-features-section">
+      <div class="section-header">
+        <h3 class="section-name">Main Features</h3>
+        <h2 class="section-title">Issue tracking optimized for speed</h2>
+        <p class="section-content">
+          With Linear, we are creating an issue tracker with an unrivalled user
+          experience. Linear is optimized for speed,
+          <br />
+          efficiency and performance. Its realtime sync architecture makes it
+          blazingly fast. Its minimalistic, purposeful <br />
+          design helps your team achieve more.
+        </p>
+      </div>
+      <ul id="main-features-cards">
+        <li class="card-tl">
+          <div class="card-icon">10x</div>
+          <p class="card-title">Built for speed</p>
+          <p class="card-text">
+            No page loads. Instant search.<br />
+            Realtime sync.
+          </p>
+        </li>
+        <li>
+          <div class="card-icon card-icon-mac">⌘</div>
+          <p class="card-title">Use keyboard for everything</p>
+          <p class="card-text">
+            Optimized for efficiency with <br />
+            extensive keyboard shortcuts
+          </p>
+        </li>
+        <li class="card-tr">
+          <i class="card-icon" data-feather="columns"></i>
+          <p class="card-title">List and Board</p>
+          <p class="card-text">
+            View it your way. Kanban boards and <br />
+            list issue views.
+          </p>
+        </li>
+        <li class="card-bl">
+          <i class="card-icon" data-feather="cloud-off"></i>
+          <p class="card-title">Desktop app and offline support</p>
+          <p class="card-text">
+            Access and use Linear on the plane,<br />
+            in a cafe or anywhere
+          </p>
+        </li>
+        <li>
+          <i class="card-icon" data-feather="users"></i>
+          <p class="card-title">Multiple teams</p>
+          <p class="card-text">
+            Company growing? Manage issues <br />
+            for multiple teams.
+          </p>
+        </li>
+        <li class="card-br">
+          <i class="card-icon" data-feather="moon"></i>
+          <p class="card-title">Dark mode</p>
+          <p class="card-text">
+            Because progress happens all the <br />
+            time, day or night.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="feature-spotlight">
+      <div class="section-header">
+        <h3 class="section-name">Feature Spotlight</h3>
+        <h2 class="section-title">Meet your command line</h2>
+        <p class="section-content">
+          Hit
+          <span class="inline-key-render"
+            >⌘<span style="transform: translateY(1px); display: inline-block"
+              >K</span
+            ></span
+          >
+          to bring up the context-sensitive menu. Edit an issue's status, change
+          assignees, modify <br />
+          <!-- Hit <pre style="display: inline-block;">⌘K</pre> to bring up the context-sensitive menu. Edit an issue's status, change assignees, modify <br/> -->
+          subscriptions and a lot more in mere seconds
+        </p>
+      </div>
+      <img
+        src="./assets/demo-screenshot-2.png"
+        alt="demo-screenshot-of-command-palette"
+      />
+    </section>
+
+    <section id="integrations">
+      <div class="section-header">
+        <h3 class="section-name">Integrations</h3>
+        <h2 class="section-title">Built for your workflow</h2>
+        <p class="section-content">
+          To help improve your personal and your teams' productivity. Linear
+          ties into your existing tools, services and <br />
+          workflow
+        </p>
+      </div>
+      <ul id="integrations-cards">
+        <li>
+          <img src="assets/gh-icon.png" />
+          <p class="card-title">GitHub</p>
+          <p class="card-text">
+            Link PRs and issues, automatically<br />
+            close issues on merge.
+          </p>
+        </li>
+        <li>
+          <img src="assets/slack-icon.png" />
+          <p class="card-title">Slack</p>
+          <p class="card-text">
+            Create issues from slack and get<br />
+            notifications on updates.
+          </p>
+        </li>
+        <li>
+          <img src="assets/CLI-icon.png" />
+          <p class="card-title">CLI</p>
+          <p class="card-text">
+            Look up existing issues or create<br />
+            new ones right from your terminal.
+          </p>
+        </li>
+      </ul>
+      <p style="color: #95a0ac; margin-top: 40px; font-size: 22px">
+        More integrations coming soon...
+      </p>
+    </section>
+
+    <section id="the-linear-team">
+      <div class="section-header">
+        <h3 class="section-name">About us</h3>
+        <h2 class="section-title">The Linear team</h2>
+        <p class="section-content">
+          Our team has led, scaled and delivered large scale software and design
+          projects at multiple startups and high- <br />
+          growth environments like Uber, Airbnb and Coinbase.
+        </p>
+      </div>
+
+      <div id="team-links">
+        <div>
+          <p>Twitter -></p>
+        </div>
+        <div>
+          <p>Email -></p>
+        </div>
+      </div>
+
+      <hr
+        style="
+          background-color: #333237;
+          height: 1px;
+          border: none;
+          margin: 70px 0;
+        "
+      />
+
+      <ul id="about-us-people">
+        <li>
+          <img src="assets/tuomas.png" alt="Tuomas Artman" />
+          <div class="about-us-name">Tuomas Artman</div>
+          <div class="about-us-desc">
+            Staff engineer and manager, scaled<br />
+            <span class="about-us-highlight">Uber's</span> mobile engineering
+            team to<br />
+            400 strong
+          </div>
+          <ul class="about-us-social-media">
+            <li>
+              <a href="#"><i data-feather="twitter"></i></a>
+            </li>
+
+            <li>
+              <a href="#"><i data-feather="linkedin"></i></a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <img src="assets/karri.png" alt="Karri Saarinen" />
+          <div class="about-us-name">Karri Saarinen</div>
+          <div class="about-us-desc">
+            Principal Designer and design <br />
+            systems lead at <span class="about-us-highlight">Airbnb</span>.
+            Founding <br />
+            design at <span class="about-us-highlight">Coinbase</span>. YC Alum
+          </div>
+
+          <ul class="about-us-social-media">
+            <li>
+              <a href="#"><i data-feather="twitter"></i></a>
+            </li>
+
+            <li>
+              <a href="#"><i data-feather="linkedin"></i></a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <img src="assets/jori.png" alt="Jori Lallo" />
+          <div class="about-us-name">Jori Lallo</div>
+          <div class="about-us-desc">
+            Early <span class="about-us-highlight">Coinbase</span> engineer.
+            Created the<br />
+            API and frontend architecture. YC<br />
+            Alum.
+          </div>
+
+          <ul class="about-us-social-media">
+            <li>
+              <a href="#"><i data-feather="twitter"></i></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div id="early-access-card-cta">
+        <div id="early-access-card-content">
+          <h2 id="early-access-card-title">Get Linear Early Access</h2>
+          <p id="early-access-card-text">
+            We're gradually opening up early access to companies and<br />
+            teams.
+          </p>
+          <div id="early-access-card-field">
+            <input type="email" placeholder="> enter your email" type="text" />
+            <button>Request access</button>
+          </div>
+        </div>
+        <img src="assets/final-demo-image.png" alt="Linear demo image" />
+      </div>
+    </section>
+
+    <div style="background-color: #17161c">
+      <hr
+        style="
+          background-color: #28272d;
+          height: 1px;
+          border: none;
+          margin: 0 24px;
+        "
+      />
+    </div>
+    <footer>
+      <div id="footer-company">
+        <img id="logo" src="./assets/logo.png" alt="logo" />
+        Linear Orbit, Inc. &mdash; San Francisco, CA
+      </div>
+      <ul id="footer-links">
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Download</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
